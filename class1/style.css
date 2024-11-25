@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: #111;
+}
+h2 {
+    color:#fff;
+}
+div {
+    border-radius: 4px;
+    background: #111;
+    padding: 6px 25px;
+    margin: 20px;
+}
+p {
+    color: #ffffffab;
+}
+.price {
+    color:#febe01;
+}
+.kms, .year {
+    color:#febe01;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    background: #febe01;
+    border-radius: 4px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 14px;
+    transition: ease-in-out 0.3s;
+
+}
+a:hover {
+    background: #332200;
+    color:#fff;
+    
+}
+/* black - #111 gray - #b2b2b2   yeallow-one - #febe01 yeallow-two - #332200*/
