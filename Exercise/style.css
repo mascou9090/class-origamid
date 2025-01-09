@@ -4,6 +4,12 @@ body {
     gap: 60px;
     justify-items: center;
 }
+header {
+    display: grid;
+    justify-items: center;
+    gap: 60px;
+    padding: 1rem 2rem;
+}
 img {
     max-width: 100%;
 }
@@ -22,14 +28,19 @@ p {
     display: flex;
     gap: 20px;
     justify-content: center;
+    list-style: none;
 }
 .menu a {
     border-radius: 4px;
     background: #ffffff;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     color: #000;
     text-transform: uppercase;
     flex-wrap: wrap;
+    border-color: #fff;
+}
+.menu a:hover {
+    border-color: #e21;
 }
 .conteudo {
     display: grid;
@@ -58,7 +69,7 @@ p {
 .btn {
     background: #e21;
     color: #fff;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     border-radius: 4px;
     text-transform: uppercase;
     border: none;
@@ -70,6 +81,7 @@ p {
     text-align: right;
     padding: 40px;
     align-self: center;
+    background-image: url("./imgs/03-css-posicionamento/03-css-posicionamento/0309-posicionamento-exercicio/img/onda.svg");
 }
 .vantagens {
     background: #fff;
