@@ -37,7 +37,7 @@ p {
     color: #000;
     text-transform: uppercase;
     flex-wrap: wrap;
-    border-color: #fff;
+    border: solid 2px #fff;
 }
 .menu a:hover {
     border-color: #e21;
@@ -57,7 +57,8 @@ p {
     align-content: center;
     justify-items: end;
 }
-.detalhe {
+.introducao::before{
+    content: "";
     width: 60px;
     height: 4px;
     background: #e21;
@@ -74,6 +75,9 @@ p {
     text-transform: uppercase;
     border: none;
 }
+.btn:hover {
+    background-color: #900;
+}
 .subtitulo {
     font-size: 64px;
     text-transform: uppercase;
@@ -87,11 +91,18 @@ p {
     background: #fff;
     padding: 40px;
 }
+.vantagens-item:nth-child(odd) {
+    background-color: #f7f7f7;
+}
 .vantagens-item {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 10px 20px;
     padding: 20px;
+    border-left:4px solid transparent;
+}
+.vantagens-item:hover {
+    border-left: 4px solid #e21;
 }
 .vantagens-item p {
     grid-column: 2;
